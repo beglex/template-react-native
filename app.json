@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ReactNativeTemplate",
+    "slug": "ReactNativeTemplate",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#24282c"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#24282c"
+      },
+      "package": "com.beglex.ReactNativeTemplate"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ddab0282-05cc-4ba2-aedc-e22323e23f1c"
+      }
+    }
+  }
+}

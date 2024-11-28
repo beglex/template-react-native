@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "extends": "expo/tsconfig.base",
+
+  "display": "React Native",
+
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react-native",
+    "lib": ["DOM", "ESNext"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "paths": {
+      "@root/*": ["./*"]
+    },
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "**/node_modules/"
+  ]
+}
